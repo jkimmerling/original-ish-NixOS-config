@@ -18,6 +18,7 @@
     hostName = "jasonk-home";
     interfaces.wlp82s0.useDHCP = true;
     interfaces.enp0s31f6.useDHCP = true;
+    networking.networkmanager.enable = true;
   };
 
 #  fileSystems."/data" = {
