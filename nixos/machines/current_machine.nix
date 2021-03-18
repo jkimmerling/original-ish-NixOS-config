@@ -14,6 +14,8 @@
     };
   };
 
+  services.openssh.enable = true;
+
   networking = {
     hostName = "jasonk-home";
     interfaces.wlp82s0.useDHCP = true;
