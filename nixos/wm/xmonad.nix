@@ -13,13 +13,14 @@
     xserver = {
       enable = true;
 
-      extraLayouts.us-custom = {
-        description = "US layout with custom hyper keys";
-        languages   = [ "eng" ];
-        symbolsFile = ./us-custom.xkb;
-      };
+      #extraLayouts.us-custom = {
+      #  description = "US layout with custom hyper keys";
+      #  languages   = [ "eng" ];
+      #  symbolsFile = ./us-custom.xkb;
+      #};
 
-      layout = "us-custom";
+      #layout = "us-custom";
+      layout = "us";
 
       libinput = {
         enable = true;
@@ -48,6 +49,8 @@
 
   hardware.bluetooth.enable = true;
   services.blueman.enable = true;
+  sound.enable = true;
+  hardware.pulseaudio.enable = true;
 
   systemd.services.upower.enable = true;
 }
