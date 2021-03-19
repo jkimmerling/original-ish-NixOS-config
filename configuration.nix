@@ -45,6 +45,7 @@
      wget vim
      firefox
      networkmanagerapplet
+     alacritty
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
