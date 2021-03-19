@@ -10,7 +10,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./machines/current_machine.nix
-      ./wm/xmonad.nix
+      ./wm/LeftWM.nix
       #./locale/locale.nix
       #./xserver/xserver.nix
     ];
