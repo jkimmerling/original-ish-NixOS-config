@@ -15,8 +15,5 @@ sudo rm /mnt/etc/nixos/configuration.nix
 sudo nano /mnt/etc/nixos/configuration.nix  
 
 sudo nixos-install  
-  
-$ nix-env -f "<nixpkgs>" -iA haskellPackages.xmonad \
-                            -A haskellPackages.xmonad-extras \
-                            -A haskellPackages.xmonad-contrib
-nix-env -f "<nixpkgs>" -iA haskellPackages.xmonad
+
+ln -s ~/.config/leftwm/themes/basic_polybar ~/.config/leftwm/themes/current
